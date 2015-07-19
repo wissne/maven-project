@@ -1,4 +1,4 @@
-package com.maple.study.singleton;
+package com.maple.study.pattern.singleton;
 
 /**
  * 第五种（静态内部类）：
@@ -12,7 +12,7 @@ public class Singleton05 {
 
     private Singleton05() {}
 
-    public static final Singleton05 getInstance() {
+    public static Singleton05 getInstance() {
         return SingletonHolder.INSTANCE;
     }
 }

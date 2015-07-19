@@ -1,4 +1,4 @@
-package com.maple.study.singleton;
+package com.maple.study.pattern.singleton;
 
 /**
  * 第二种（懒汉，线程安全）：

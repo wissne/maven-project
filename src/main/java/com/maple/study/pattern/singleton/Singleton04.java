@@ -1,4 +1,4 @@
-package com.maple.study.singleton;
+package com.maple.study.pattern.singleton;
 
 /**
  * 第四种（饿汉，变种）：

@@ -1,4 +1,4 @@
-package com.maple.study.singleton;
+package com.maple.study.pattern.singleton;
 
 /**
  * 第七种（双重校验锁）：

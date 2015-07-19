@@ -1,6 +1,5 @@
-package com.maple.study.singleton;
+package com.maple.study.pattern.singleton;
 
-import com.maple.study.singleton.Singleton06;
 import org.junit.Test;
 
 /**
