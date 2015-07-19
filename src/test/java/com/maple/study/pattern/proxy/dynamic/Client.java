@@ -19,7 +19,7 @@ public class Client {
         InvocationHandler handler = new GamePlayIH(player);
         System.out.println("开始时间：" + new Date());
         ClassLoader classLoader = player.getClass().getClassLoader();
-        IGamePlayer proxy = DynamicProxy.newProxyInstance(classLoader, player.getClass().getInterfaces(), handler);
+        IGamePlayer proxy = (IGamePlayer) DynamicProxy.newProxyInstance(classLoader, player.getClass().getInterfaces(), handler);
         proxy.getProxy();
         proxy.login("zhangsan", "password");
         proxy.killBoss();

@@ -6,13 +6,13 @@ import java.lang.reflect.Proxy;
 /**
  * Created by aurogon-mac on 15/7/18.
  */
-public class DynamicProxy<T> {
+public class DynamicProxy {
 
-    public static <T> T newProxyInstance(ClassLoader loader, Class<?>[] interfaces, InvocationHandler handler) {
+    public static Object newProxyInstance(ClassLoader loader, Class<?>[] interfaces, InvocationHandler handler) {
         if (true) {
             (new BeforeAdvice()).exec();
         }
 
-        return (T) Proxy.newProxyInstance(loader, interfaces, handler);
+        return Proxy.newProxyInstance(loader, interfaces, handler);
     }
 }
