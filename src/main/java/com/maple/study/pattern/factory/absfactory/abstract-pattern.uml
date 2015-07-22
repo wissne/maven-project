@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="0.0" y="89.0">com.maple.study.pattern.factory.absfactory.IWatch</node>
+    <node x="188.0" y="89.0">com.maple.study.pattern.factory.absfactory.AbstractFactory</node>
+    <node x="94.0" y="89.0">com.maple.study.pattern.factory.absfactory.IPhone</node>
+    <node x="335.56944444444446" y="168.0">com.maple.study.pattern.factory.absfactory.MiFactory</node>
+    <node x="339.0" y="89.0">com.maple.study.pattern.factory.absfactory.MiBang</node>
+    <node x="0.0" y="242.0">com.maple.study.pattern.factory.absfactory.FactoryProducer</node>
+    <node x="175.94444444444443" y="0.0">com.maple.study.pattern.factory.absfactory.Bang</node>
+    <node x="436.0" y="89.0">com.maple.study.pattern.factory.absfactory.MiPhone</node>
+    <node x="71.56944444444443" y="168.0">com.maple.study.pattern.factory.absfactory.AppleFactory</node>
+    <node x="269.44444444444446" y="0.0">com.maple.study.pattern.factory.absfactory.Phone</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.maple.study.pattern.factory.absfactory.MiFactory" target="com.maple.study.pattern.factory.absfactory.AbstractFactory">
+      <point x="-31.0" y="-14.5" />
+      <point x="351.06944444444446" y="143.0" />
+      <point x="286.25" y="143.0" />
+      <point x="32.75" y="14.5" />
+    </edge>
+    <edge source="com.maple.study.pattern.factory.absfactory.MiPhone" target="com.maple.study.pattern.factory.absfactory.Phone">
+      <point x="0.0" y="-14.5" />
+      <point x="478.5" y="49.0" />
+      <point x="321.94444444444446" y="49.0" />
+      <point x="17.5" y="14.5" />
+    </edge>
+    <edge source="com.maple.study.pattern.factory.absfactory.MiFactory" target="com.maple.study.pattern.factory.absfactory.MiBang">
+      <point x="0.0" y="-14.5" />
+      <point x="382.06944444444446" y="143.0" />
+      <point x="377.5" y="143.0" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="com.maple.study.pattern.factory.absfactory.MiBang" target="com.maple.study.pattern.factory.absfactory.Bang">
+      <point x="0.0" y="-14.5" />
+      <point x="377.5" y="59.0" />
+      <point x="222.44444444444443" y="59.0" />
+      <point x="15.5" y="14.5" />
+    </edge>
+    <edge source="com.maple.study.pattern.factory.absfactory.AppleFactory" target="com.maple.study.pattern.factory.absfactory.IPhone">
+      <point x="0.0" y="-14.5" />
+      <point x="128.56944444444443" y="143.0" />
+      <point x="131.0" y="143.0" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="com.maple.study.pattern.factory.absfactory.AppleFactory" target="com.maple.study.pattern.factory.absfactory.AbstractFactory">
+      <point x="38.0" y="-14.5" />
+      <point x="166.56944444444443" y="143.0" />
+      <point x="220.75" y="143.0" />
+      <point x="-32.75" y="14.5" />
+    </edge>
+    <edge source="com.maple.study.pattern.factory.absfactory.MiFactory" target="com.maple.study.pattern.factory.absfactory.MiPhone">
+      <point x="31.0" y="-14.5" />
+      <point x="413.06944444444446" y="143.0" />
+      <point x="478.5" y="143.0" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="com.maple.study.pattern.factory.absfactory.IWatch" target="com.maple.study.pattern.factory.absfactory.Bang">
+      <point x="0.0" y="-14.5" />
+      <point x="37.0" y="59.0" />
+      <point x="191.44444444444443" y="59.0" />
+      <point x="-15.5" y="14.5" />
+    </edge>
+    <edge source="com.maple.study.pattern.factory.absfactory.AppleFactory" target="com.maple.study.pattern.factory.absfactory.IWatch">
+      <point x="-38.0" y="-14.5" />
+      <point x="90.56944444444443" y="143.0" />
+      <point x="37.0" y="143.0" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="com.maple.study.pattern.factory.absfactory.IPhone" target="com.maple.study.pattern.factory.absfactory.Phone">
+      <point x="0.0" y="-14.5" />
+      <point x="131.0" y="69.0" />
+      <point x="286.94444444444446" y="69.0" />
+      <point x="-17.5" y="14.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="260.5" y="135.5" />
+  <SelectedNodes />
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

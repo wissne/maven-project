@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>com.maple.study.pattern.chain.Client</OriginalElement>
+  <nodes>
+    <node x="436.0" y="145.0">com.maple.study.pattern.chain.Husband</node>
+    <node x="0.0" y="364.0">com.maple.study.pattern.chain.Women</node>
+    <node x="218.0" y="145.0">com.maple.study.pattern.chain.Father</node>
+    <node x="0.0" y="145.0">com.maple.study.pattern.chain.Son</node>
+    <node x="196.0" y="241.0">com.maple.study.pattern.chain.Client</node>
+    <node x="178.5" y="0.0">com.maple.study.pattern.chain.Handler</node>
+    <node x="0.0" y="241.0">com.maple.study.pattern.chain.IWomen</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.maple.study.pattern.chain.Husband" target="com.maple.study.pattern.chain.Handler">
+      <point x="0.0" y="-25.5" />
+      <point x="535.0" y="120.0" />
+      <point x="409.3333333333333" y="120.0" />
+      <point x="92.33333333333331" y="47.5" />
+    </edge>
+    <edge source="com.maple.study.pattern.chain.Client" target="com.maple.study.pattern.chain.Son">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="com.maple.study.pattern.chain.Father" target="com.maple.study.pattern.chain.Handler">
+      <point x="0.0" y="-25.5" />
+      <point x="0.0" y="47.5" />
+    </edge>
+    <edge source="com.maple.study.pattern.chain.Son" target="com.maple.study.pattern.chain.Handler">
+      <point x="0.0" y="-25.5" />
+      <point x="99.0" y="120.0" />
+      <point x="224.66666666666669" y="120.0" />
+      <point x="-92.33333333333331" y="47.5" />
+    </edge>
+    <edge source="com.maple.study.pattern.chain.Women" target="com.maple.study.pattern.chain.IWomen">
+      <point x="0.0" y="-36.5" />
+      <point x="0.0" y="36.5" />
+    </edge>
+    <edge source="com.maple.study.pattern.chain.Client" target="com.maple.study.pattern.chain.Women">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="com.maple.study.pattern.chain.Client" target="com.maple.study.pattern.chain.Husband">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="com.maple.study.pattern.chain.Client" target="com.maple.study.pattern.chain.Father">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="317.0" y="218.5" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
