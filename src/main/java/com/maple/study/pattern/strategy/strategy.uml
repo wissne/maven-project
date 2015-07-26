@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="0.0" y="155.0">com.maple.study.pattern.strategy.Calculator</node>
+    <node x="269.0" y="80.0">com.maple.study.pattern.strategy.BackDoor</node>
+    <node x="207.75" y="0.0">com.maple.study.pattern.strategy.IStrategy</node>
+    <node x="122.0" y="80.0">com.maple.study.pattern.strategy.GivenGreenLight</node>
+    <node x="0.0" y="80.0">com.maple.study.pattern.strategy.BlockEnemy</node>
+    <node x="379.0" y="80.0">com.maple.study.pattern.strategy.Context</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.maple.study.pattern.strategy.BackDoor" target="com.maple.study.pattern.strategy.IStrategy">
+      <point x="0.0" y="-15.0" />
+      <point x="314.0" y="60.0" />
+      <point x="260.25" y="60.0" />
+      <point x="10.5" y="15.0" />
+    </edge>
+    <edge source="com.maple.study.pattern.strategy.BlockEnemy" target="com.maple.study.pattern.strategy.IStrategy">
+      <point x="0.0" y="-15.0" />
+      <point x="51.0" y="50.0" />
+      <point x="218.25" y="50.0" />
+      <point x="-31.5" y="15.0" />
+    </edge>
+    <edge source="com.maple.study.pattern.strategy.GivenGreenLight" target="com.maple.study.pattern.strategy.IStrategy">
+      <point x="0.0" y="-15.0" />
+      <point x="185.5" y="60.0" />
+      <point x="239.25" y="60.0" />
+      <point x="-10.5" y="15.0" />
+    </edge>
+    <edge source="com.maple.study.pattern.strategy.Context" target="com.maple.study.pattern.strategy.IStrategy">
+      <point x="0.0" y="-15.0" />
+      <point x="417.0" y="50.0" />
+      <point x="281.25" y="50.0" />
+      <point x="31.5" y="15.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="227.5" y="92.5" />
+  <SelectedNodes />
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
