@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>com.maple.study.pattern.memento.Client</OriginalElement>
+  <nodes>
+    <node x="0.0" y="80.0">com.maple.study.pattern.memento.Boy</node>
+    <node x="28.75" y="0.0">com.maple.study.pattern.memento.Memento</node>
+    <node x="40.75" y="160.0">com.maple.study.pattern.memento.Client</node>
+    <node x="74.0" y="80.0">com.maple.study.pattern.memento.Caretaker</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.maple.study.pattern.memento.Client" target="com.maple.study.pattern.memento.Caretaker">
+      <point x="16.0" y="-15.0" />
+      <point x="88.75" y="135.0" />
+      <point x="118.5" y="135.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="com.maple.study.pattern.memento.Client" target="com.maple.study.pattern.memento.Boy">
+      <point x="-16.0" y="-15.0" />
+      <point x="56.75" y="135.0" />
+      <point x="27.0" y="135.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="com.maple.study.pattern.memento.Boy" target="com.maple.study.pattern.memento.Memento">
+      <point x="0.0" y="-15.0" />
+      <point x="27.0" y="55.0" />
+      <point x="50.75" y="55.0" />
+      <point x="-22.0" y="15.0" />
+    </edge>
+    <edge source="com.maple.study.pattern.memento.Caretaker" target="com.maple.study.pattern.memento.Memento">
+      <point x="0.0" y="-15.0" />
+      <point x="118.5" y="55.0" />
+      <point x="94.75" y="55.0" />
+      <point x="22.0" y="15.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="81.5" y="95.0" />
+  <SelectedNodes />
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
